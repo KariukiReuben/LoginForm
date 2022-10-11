@@ -27,9 +27,9 @@ if(!isset($_SESSION['guardian_name'])){
 <div class="container">
 
    <div class="content">
-      <h3>hi, <span>Guardian</span></h3>
-      <h1>welcome <span><?php echo $_SESSION['guardian_name'] ?></span></h1>
-      <p>this is a guardian page</p>
+      <h3>Hi, <span>Guardian</span></h3>
+      <h1>Welcome <span><?php echo $_SESSION['guardian_name'] ?></span></h1>
+      <p>This is a guardian page</p>
       <a href="login_form.php" class="btn">login</a>
       <a href="register_form.php" class="btn">register</a>
       <a href="logout.php" class="btn">logout</a>
